@@ -49,39 +49,39 @@ export default function AminoLanding() {
                     <p className="font-semibold lg:text-xl text-center text-gray-600 sm:text-2xl">Try New Communities With Your Interests</p>
                 </div>
                 <div className="flex justify-around pt-8">
-                    <div className="lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake">
+                    <div className="lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake topslide1">
                         <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 shadow-2xl" src="https://cm1.narvii.com/8226/d3cee72c23349a98576f8ad589149425e5174fb3_375.jpg" />
                         <p className="absolute -mt-[30px] text-white font-bold lg:text-xl sm:text-sm">Anime</p>
                     </div>
-                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake">
+                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake topslide1">
                         <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 shadow-2xl" src='https://cm1.narvii.com/8511/8cc7031ea92323558fecd058593f75df4dcf6d1f_375.jpg' />
                         <p className="absolute -mt-[30px] text-white font-bold lg:text-xl sm:text-sm">K-Pop</p>
                     </div>
-                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake">
+                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake topslide2">
                         <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 shadow-2xl" src="https://cm1.narvii.com/7199/891fcfc315922dd1cf35ef9b52513d37d0ca15bd_375.jpg"/>
                         <p className="absolute -mt-[30px] text-white font-bold lg:text-xl sm:text-sm">Hardwood</p>
                     </div>
-                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake">
+                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake topslide3">
                         <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 shadow-2xl" src="https://cm1.narvii.com/8429/3e0621dd5536f161cd6b8f27c0927b9f8b99fa01_375.jpg" />
                         <p className="absolute -mt-[30px] text-white font-bold lg:text-xl sm:text-sm">Overwatch</p>
                     </div>
-                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake">                       
+                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake topslide4">                       
                         <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 shadow-2xl" src="https://cm1.narvii.com/7882/b027755440fc39d03b452a14904e31ac08c1e23a_375.jpg" />
                         <p className="absolute -mt-[30px] text-white font-bold lg:text-xl sm:text-sm">Art</p>
                     </div>
-                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake"> 
+                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake topslide5"> 
                         <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 shadow-2xl" src="https://cm1.narvii.com/8466/0bc9ce27c0064627e19bccfebbb65cf2a4916a30_375.jpg" />
                         <p className="absolute -mt-[30px] text-white font-bold lg:text-xl sm:text-sm">Undertale</p>
                     </div>
-                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake">
+                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake topslide6">
                         <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 shadow-2xl" src="https://cm1.narvii.com/8500/8be8bbddd7d35f3825ffc90ceab53381d23a9321_375.jpg" />
                         <p className="absolute -mt-[30px] text-white font-bold lg:text-xl sm:text-sm">Crafty</p>
                     </div>
-                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake">
+                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake topslide7">
                         <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 shadow-2xl" src="https://cm1.narvii.com/8324/9a2ebbb03d5b6719d14a617992ec8d7e9105e63c_375.jpg" />
                         <p className="absolute -mt-[30px] text-white font-bold lg:text-xl sm:text-sm">Studying</p>
                     </div>
-                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake">
+                    <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake topslide8">
                         <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 shadow-2xl" src="https://cm1.narvii.com/7404/c9e94e2d7facb0db8a1e0ad55e8a50a063c3087f_375.jpg" />
                         <p className="absolute -mt-[30px] text-white font-bold lg:text-xl sm:text-sm">Horror</p>
                     </div>

@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export default function AminoLanding() {
@@ -10,7 +11,7 @@ export default function AminoLanding() {
                     <p className="px-1 lg:text-sm sm:text-xs pt-4 lg:w-[400px] sm:w-[250px] text-gray-400">Amino has authentic mobile communities for whatever you're into</p>
                     <p className="px-1 lg:text-sm sm:text-xs pt-3 lg:w-[400px] sm:w-[250px] text-gray-400">Amino Creator Manager Allows anyone to create a community</p>
 
-                    <div className="flex gap-5 pt-12">
+                    <div className="flex gap-5 lg:pt-12 sm:pt-7">
                         <div className="hovershake flex border py-1 w-[150px] bg-blue-400 rounded-xl text-white text-end cursor-pointer active:scale-95">
                             <div className="pl-2 pt-[1px]">
                                 <img className="lg:w-10 lg:h-10 sm:w-8 sm:h-8" src="https://cdn.iconscout.com/icon/free/png-256/mobile-2085-902096.png" />
@@ -46,11 +47,11 @@ export default function AminoLanding() {
             </div>
             <div className="w-[85%] m-auto lg:mt-10 sm:mt-1">
                 <div className="sm:w-[40%] lg:w-[85%] sm:m-auto">
-                    <p className="font-semibold lg:text-xl text-center text-gray-600 sm:text-2xl">Try New Communities With Your Interests</p>
+                    <p className="font-semibold lg:text-xl text-center text-gray-600 sm:text-xl">Try New Communities With Your Interests</p>
                 </div>
                 <div className="flex justify-around pt-8">
                     <div className="lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake topslide1">
-                        <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 shadow-2xl" src="https://cm1.narvii.com/8226/d3cee72c23349a98576f8ad589149425e5174fb3_375.jpg" />
+                        <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all  hover:scale-105 active:scale-95 shadow-2xl" src="https://cm1.narvii.com/8226/d3cee72c23349a98576f8ad589149425e5174fb3_375.jpg" />
                         <p className="absolute -mt-[30px] text-white font-bold lg:text-xl sm:text-sm">Anime</p>
                     </div>
                     <div className="border  lg:h-[150px] lg:w-[100px] sm:w-[150px] sm:h-[150px] hovershake topslide1">
@@ -86,6 +87,9 @@ export default function AminoLanding() {
                         <p className="absolute -mt-[30px] text-white font-bold lg:text-xl sm:text-sm">Horror</p>
                     </div>
                 </div>
+            </div>
+            <div>
+                <Footer />
             </div>
         </div>
     )

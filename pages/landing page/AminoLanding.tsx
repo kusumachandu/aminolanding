@@ -73,11 +73,11 @@ export default function AminoLanding() {
                     <div className="lg:w-[60%] md:w-[70%] w-[90%]  ml-[30%] lg:ml-[40%] lg:h-[420px] md:h-[310px] h-[290px] bg-white rounded-full">
                         <img className="w-[100%] h-[100%]" src="https://wa1.narvii.com/static/img/app-demo2x.webp?v=4" />
                     </div>
-                    <div className="absolute border rounded-lg py-4 px-4 lg:w-[210px] md:w-[170px] w-[120px] bg-white shadow-2xl lg:-mt-[35%] md:-mt-[40%] -mt-[50%] lg:ml-24 md:ml-0 ml-0 sm:overflow-hidden">
+                    <div className="absolute border rounded-lg py-4 px-4 lg:w-[210px] md:w-[170px] w-[120px] bg-white shadow-2xl lg:-mt-[35%] md:-mt-[40%] -mt-[50%] lg:ml-24 md:ml-0 ml-0 sm:overflow-hidden hover:z-10 hover:scale-105">
                         <p className="lg:px-3 text-gray-800 font-semibold lg:text-lg text-[10px] md:text-[12px]">Explore More..</p>
                         <p className="lg:px-3 text-gray-600 font-extralight lg:text-[16px] text-[8px] md:text-[12px]">On your interests</p>
                     </div>
-                    <p className="lg:w-[50px] lg:h-[50px] md:w-[40px] md:h-[40px] w-[40px] h-[40px] rounded-full bg-blue-400 lg:pt-3 pt-[6px] absolute lg:-mt-[25%] md:-mt-[28%] -mt-[35%] lg:ml-44 ml-9 md:ml-16">
+                    <p className="lg:w-[50px] lg:h-[50px] md:w-[40px] md:h-[40px] w-[40px] h-[40px] rounded-full bg-blue-400 lg:pt-3 pt-[6px] absolute lg:-mt-[25%] md:-mt-[28%] -mt-[35%] lg:ml-44 ml-9 md:ml-16 hover:scale-105">
                         <svg className="text-white lg:ml-[10px] ml-[5px] lg:w-[30px] lg:h-[30px] w-[30px] h-[30px] md:h-[30px] md:w-[30px] md:ml-[5px]" viewBox="0 0 24 24" width="30" height="30" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="20 6 9 17 4 12"></polyline></svg>
                     </p>
                 </motion.div>
@@ -89,7 +89,14 @@ export default function AminoLanding() {
                 <div className="md:flex lg:flex justify-around pt-8 ">
                     <motion.div className="lg:h-[150px] lg:w-[100px]  md:w-[150px] md:h-[150px] w-[300px] h-[300px] hovershake hover:topslide1 mb-10 md:mb-0 lg:mb-0 m-auto"
                         initial = {{y:-200}}
-                        animate = {{y: 0}}
+                        animate = {{
+                            y: 0,
+                            opacity: 1, 
+                            scale: [1, 1.2, 1.2, 1, 1],
+                            rotate: [0, 0, 350, 350, 0],
+                            borderRadius: ["10%", "10%", "30%", "30%", "10%"]
+                        
+                        }}
                         transition = {{
                             duration : 0.5
                         }}
@@ -99,7 +106,10 @@ export default function AminoLanding() {
                     </motion.div>
                     <motion.div className="border  lg:h-[150px] lg:w-[100px] md:w-[150px] md:h-[150px] w-[300px] h-[300px] hovershake mb-10 md:mb-0 lg:mb-0 hover:topslide1 m-auto"
                         initial = {{y:-200}}
-                        animate = {{y: 0}}
+                        animate = {{y: 0, opacity: 1, 
+                            scale: [1, 1.2, 1.2, 1, 1],
+                            rotate: [0, 0, 350, 350, 0],
+                            borderRadius: ["10%", "10%", "30%", "30%", "10%"]}}
                         transition = {{
                             duration : 1
                         }}
@@ -109,9 +119,12 @@ export default function AminoLanding() {
                     </motion.div>
                     <motion.div className="border  lg:h-[150px] lg:w-[100px] md:w-[150px] md:h-[150px] w-[300px] h-[300px] hovershake mb-10 md:mb-0 lg:mb-0 m-auto hover:topslide2"
                         initial = {{y:-200}}
-                        animate = {{y: 0}}
+                        animate = {{y: 0, opacity: 1, 
+                            scale: [1, 1.2, 1.2, 1, 1],
+                            rotate: [0, 0, 350, 350, 0],
+                            borderRadius: ["10%", "10%", "30%", "30%", "10%"]}}
                         transition = {{
-                            duration : 1.5
+                            duration : 1.2
                         }}
                     >
                         <img className="w-[100%] h-[100%] rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 shadow-2xl" src="https://cm1.narvii.com/7199/891fcfc315922dd1cf35ef9b52513d37d0ca15bd_375.jpg"/>
@@ -119,7 +132,10 @@ export default function AminoLanding() {
                     </motion.div>
                     <motion.div className="border  lg:h-[150px] lg:w-[100px] md:w-[150px] md:h-[150px] w-[300px] h-[300px] hovershake mb-10 md:mb-0 lg:mb-0 m-auto hover:topslide3"
                         initial = {{y:-200}}
-                        animate = {{y: 0}}
+                        animate = {{y: 0, opacity: 1, 
+                            scale: [1, 1.2, 1.2, 1, 1],
+                            rotate: [0, 0, 350, 350, 0],
+                            borderRadius: ["10%", "10%", "30%", "30%", "10%"]}}
                         transition = {{
                             duration : 2
                         }}
@@ -129,7 +145,10 @@ export default function AminoLanding() {
                     </motion.div>
                     <motion.div className="border  lg:h-[150px] lg:w-[100px] md:w-[150px] md:h-[150px] w-[300px] h-[300px] hovershake mb-10 md:mb-0 lg:mb-0 m-auto hover:topslide4"
                         initial = {{y:-200}}
-                        animate = {{y: 0}}
+                        animate = {{y: 0,opacity: 1, 
+                            scale: [1, 1.2, 1.2, 1, 1],
+                            rotate: [0, 0, 350, 350, 0],
+                            borderRadius: ["10%", "10%", "30%", "30%", "10%"]}}
                         transition = {{
                             duration : 2.5
                         }}
@@ -139,7 +158,10 @@ export default function AminoLanding() {
                     </motion.div>
                     <motion.div className="border  lg:h-[150px] lg:w-[100px] md:w-[150px] md:h-[150px] w-[300px] h-[300px] hovershake mb-10 md:mb-0 lg:mb-0 m-auto hover:topslide5"
                         initial = {{y:-200}}
-                        animate = {{y: 0}}
+                        animate = {{y: 0,opacity: 1, 
+                            scale: [1, 1.2, 1.2, 1, 1],
+                            rotate: [0, 0, 350, 350, 0],
+                            borderRadius: ["10%", "10%", "30%", "30%", "10%"]}}
                         transition = {{
                             duration : 3
                         }}
@@ -149,7 +171,10 @@ export default function AminoLanding() {
                     </motion.div>
                     <motion.div className="border  lg:h-[150px] lg:w-[100px] md:w-[150px] md:h-[150px] w-[300px] h-[300px] hovershake mb-10 md:mb-0 lg:mb-0 m-auto hover:topslide6"
                         initial = {{y:-200}}
-                        animate = {{y: 0}}
+                        animate = {{y: 0,opacity: 1, 
+                            scale: [1, 1.2, 1.2, 1, 1],
+                            rotate: [0, 0, 350, 350, 0],
+                            borderRadius: ["10%", "10%", "30%", "30%", "10%"]}}
                         transition = {{
                             duration : 3.5
                         }}
@@ -159,7 +184,10 @@ export default function AminoLanding() {
                     </motion.div>
                     <motion.div className="border  lg:h-[150px] lg:w-[100px] md:w-[150px] md:h-[150px] w-[300px] h-[300px] hovershake mb-10 md:mb-0 lg:mb-0 m-auto hover:topslide7"
                         initial = {{y:-200}}
-                        animate = {{y: 0}}
+                        animate = {{y: 0,opacity: 1, 
+                            scale: [1, 1.2, 1.2, 1, 1],
+                            rotate: [0, 0, 350, 350, 0],
+                            borderRadius: ["10%", "10%", "30%", "30%", "10%"]}}
                         transition = {{
                             duration : 4
                         }}
@@ -169,7 +197,10 @@ export default function AminoLanding() {
                     </motion.div>
                     <motion.div className="border  lg:h-[150px] lg:w-[100px] md:w-[150px] md:h-[150px] w-[300px] h-[300px] hovershake mb-10 md:mb-0 lg:mb-0 m-auto hover:topslide8"
                         initial = {{y:-200}}
-                        animate = {{y: 0}}
+                        animate = {{y: 0, opacity: 1, 
+                            scale: [1, 1.2, 1.2, 1, 1],
+                            rotate: [0, 0, 350, 350, 0],
+                            borderRadius: ["10%", "10%", "30%", "30%", "10%"]}}
                         transition = {{
                             duration : 4.5
                         }}
